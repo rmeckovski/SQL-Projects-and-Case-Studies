@@ -27,4 +27,4 @@ WHERE	is_active = 1
 	AND hire_date BETWEEN '2015-01-01' AND '2024-12-31'
 GROUP BY department
 HAVING SUM(CASE WHEN is_active = 1 THEN 1 ELSE 0 END) >= 3
-ORDER BY total_annual_payroll DESC, department_name ASC;
+ORDER BY total_annual_payroll DESC, department_name ASC; 
