@@ -10,4 +10,4 @@ INNER JOIN departments AS d
 WHERE e.is_active = 1
 GROUP BY d.location, d.department_name
 HAVING SUM(CASE WHEN e.is_active = 1 THEN 1 ELSE 0 END) >= 2
-ORDER BY total_department_payroll DESC, location_name ASC;
+ORDER BY total_department_payroll DESC, location_name ASC; 
