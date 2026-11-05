@@ -22,4 +22,4 @@ WHERE e.is_active = 1
   AND e.salary > 80000 
   AND d.location = 'London'
 
-ORDER BY salary DESC;
+ORDER BY salary DESC; 
