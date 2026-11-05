@@ -69,4 +69,4 @@ SELECT
 	amount_rank
 FROM SumAndLag
 WHERE cumulative_sum >= 1000 OR amount_rank <= 2
-ORDER BY country_name ASC, user_id ASC, transaction_timestamp DESC;
+ORDER BY country_name ASC, user_id ASC, transaction_timestamp DESC; 
